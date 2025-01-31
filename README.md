@@ -42,4 +42,5 @@ Each part of this project helped me understand more about building apps, managin
 
 
 
-https://github.com/mirayatech/NinjaSketch/assets/71933266/6a16c9e5-6380-4317-96e7-d132768f7b40
+![image](https://github.com/user-attachments/assets/a120cfbf-e0be-4df6-b88d-58d97716cf75)
+
