@@ -3,15 +3,10 @@
 I built a drawing app using React and TypeScript, incorporating Rough.js for a sketchy, hand-drawn style. This was a side project for learning purposes. The app is not responsive, as I primarily focused on functionality since I already have plenty of responsive projects.
 
 ## 📦 Technologies
-
-- `Vite`
 - `React.js`
 - `TypeScript`
 - `Rough.js`
-- `CSS`
-- `Vitest`
 - `Cypress` 
-- `Testing Library`
 
 
 
