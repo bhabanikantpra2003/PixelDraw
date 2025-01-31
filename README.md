@@ -17,31 +17,29 @@ I built a drawing app using React and TypeScript, incorporating Rough.js for a s
 
 ## 👩🏽‍🍳 The Process
 
-I started by rendering a canvas with rough.js to create the base for all the drawings. Then, I focused on drawing on the canvas, allowing users to make lines, rectangles, and other shapes.
+I started by rendering a canvas with Rough.js to create the base for all the drawings. Then, I focused on enabling users to draw lines, rectangles, and other shapes on the canvas.
 
-Next, I made sure users could move elements around. This was important for adjusting drawings. After that, I added the ability to resize elements to give more control over the shapes.
+Next, I made sure users could move elements around, which was crucial for adjusting drawings. After that, I added the ability to resize elements, giving users more control over their shapes.
 
-To make sure mistakes could be fixed, I implemented undo and redo features. I also added freehand drawing for a more natural sketching experience and a text tool to label or note on the canvas.
+To help fix mistakes, I implemented undo and redo features. I also introduced freehand drawing for a more natural sketching experience and a text tool for labeling or adding notes to the canvas.
 
-To navigate larger drawings, I put in pan and zoom tools. With everything functioning, I designed the whole UI to make it user-friendly and appealing.
+For better navigation on larger drawings, I added pan and zoom tools. Once everything was functional, I designed the UI to be user-friendly and visually appealing.
 
-Finally, I added testing with Cypress and Testing Library. I conducted end-to-end tests on drawing and manipulating text, lines, rectangles, and freehand drawings to make sure everything worked smoothly.
+Finally, I incorporated testing with Cypress and Testing Library. I conducted end-to-end tests on drawing, manipulating text, lines, rectangles, and freehand drawings to ensure smooth performance.
 
-Along the way, while building everything, I took notes on what I've learned so I don't miss out on it. I also documented the behind-the-scenes processes every time a feature was added.
+Throughout the process, I took notes on my learnings so I wouldn’t miss anything. I also documented the behind-the-scenes work every time I added a new feature.
 
-This way, I understood what I've built. The funny thing is, as soon as I started to document what happened behind the scenes and the features I've added, it made me realize that we fully understand something once we've actually taken a step back, thought about it, and documented what we've done. I think this is a good practice to follow when learning something new.
+Interestingly, as I started documenting the process and the features I built, I realized that true understanding comes when we step back, reflect, and articulate what we've done. This practice proved invaluable for learning something new.
 
 ##  What I Learned
 
 During this project, I've picked up important skills and a better understanding of complex ideas, which improved my logical thinking.
 
-1.React Hooks and Rendering:
+Optimized Component Updates:
+I explored useLayoutEffect, which ensures updates are processed before the browser repaints. This proved valuable for refining certain drawing behaviors.
 
- I learned about `useLayoutEffect`, which helps make sure changes are done before the screen updates. This was useful for certain drawing functions.
-
-2. Advanced Event Handling:
-
-I worked with the wheel event listener, which allowed me to add zooming and panning features. This made the app more interactive and user-friendly.
+Interactive Controls:
+I implemented a wheel event listener to enable zooming and panning, making the app more dynamic and user-friendly.
 
 
 Each part of this project helped me understand more about building apps, managing complex information, and improving user experience. It was more than just making a tool. It was about solving problems, learning new things, and improving my skills for future work.
